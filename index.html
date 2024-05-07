@@ -13,7 +13,7 @@
         <div class="container">
             <h1>Fruver</h1>
             <nav>
-                <a href="#inicio">Inicio</a>
+                <a href="#inicio"><span>Inicio</span></a>
                 <a href="#tienda">Tienda</a>
                 <a href="#productos">Productos</a>
                 <div class="dropdown">
@@ -35,54 +35,52 @@
     <section id="inicio">
         <div class="container">
             <div class="texto">
-                
                 <p>100% Organic fruit</p>
                 <h1>Organic Veggies & <br> Fruit Foods</h1>
+                <div class="busqueda">
+                    <input type="text" id="textoUsuario" name="textoUsuario" placeholder="Search">
+                    <button onclick="window.location.href='Sesion/register.html'">Submit Now </button>
+                </div>
             </div>
-            <img src="media/frutas.jpeg" alt="frutas" width="100px" />
-            <input type="text" id="textoUsuario" name="textoUsuario" placeholder="Search">
-            <button onclick="window.location.href='Sesion/register.html'">Submit Now </button>
+            <img src="media/frutas.jpeg" alt="frutas"/>
     </section>
 
     <section id="tienda">
         <div class="cardBox">
             <div class="card">
-                <div>
-                    <div class="numbers">227</div>
-                    <div class="cardName">Cantidad por empaquetar</div>
-                </div>
                 <div class="iconBX">
-                    <ion-icon name="file-tray-stacked-outline"></ion-icon>
+                    <ion-icon name="car-outline"></ion-icon>
+                </div>
+                <div>
+                    <div class="numbers">Free Shipping</div>
+                    <div class="cardName">Free on order over $300</div>
                 </div>
             </div>
-
             <div class="card">
-                <div>
-                    <div class="numbers">7</div>
-                    <div class="cardName">Paquetes por enviar</div>
-                </div>
                 <div class="iconBX">
-                    <ion-icon name="cart-outline"></ion-icon>
+                    <ion-icon name="card-outline"></ion-icon>
+                </div>
+                <div>
+                    <div class="numbers">Free Shipping</div>
+                    <div class="cardName">Free on order over $300</div>
                 </div>
             </div>
-
             <div class="card">
-                <div>
-                    <div class="numbers">10</div>
-                    <div class="cardName">Paquetes por entregar</div>
-                </div>
                 <div class="iconBX">
-                    <ion-icon name="bus-outline"></ion-icon>
+                    <ion-icon name="arrow-undo-circle-outline"></ion-icon>
+                </div>
+                <div>
+                    <div class="numbers">Free Shipping</div>
+                    <div class="cardName">Free on order over $300</div>
                 </div>
             </div>
-
             <div class="card">
-                <div>
-                    <div class="numbers">30610</div>
-                    <div class="cardName">Cantidad por facturar</div>
-                </div>
                 <div class="iconBX">
-                    <ion-icon name="receipt-outline"></ion-icon>
+                    <ion-icon name="call-outline"></ion-icon>
+                </div>
+                <div>
+                    <div class="numbers">Free Shipping</div>
+                    <div class="cardName">Free on order over $300</div>
                 </div>
             </div>
         </div> 
@@ -90,15 +88,57 @@
 
     <section id="productos">
         <div class="container">
-          
+            <h2>Productos orgánicos</h2>
+            <nav>
+                <a href="#inicio">Todos los productos</a>
+                <a href="#tienda">Vegetales</a>
+                <a href="#productos">Frutas</a>
+                <a href="#contactenos">Pan de cereales</a>
+            </nav> 
+            <div class="grid-container">
+                <div class="cardBox">
+                    <div class="card">
+                        <div class="iconBX">
+                            <ion-icon name="file-tray-stacked-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <div class="numbers">Free Shipping</div>
+                            <div class="cardName">Free on order over $300</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="iconBX">
+                            <ion-icon name="file-tray-stacked-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <div class="numbers">Free Shipping</div>
+                            <div class="cardName">Free on order over $300</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="iconBX">
+                            <ion-icon name="file-tray-stacked-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <div class="numbers">Free Shipping</div>
+                            <div class="cardName">Free on order over $300</div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="iconBX">
+                            <ion-icon name="file-tray-stacked-outline"></ion-icon>
+                        </div>
+                        <div>
+                            <div class="numbers">Free Shipping</div>
+                            <div class="cardName">Free on order over $300</div>
+                        </div>
+                    </div>
+            </div>
         </div>
     </section>
 
     <footer id="contacto">
         <div class="container">
-            <div class="logo">
-                <img src="media/Logo BN.svg" alt="logobn"/>
-            </div>
             <p>Fruver</p>
             <div class="iconos">
                 <img src="media/email.svg" alt="email"/>

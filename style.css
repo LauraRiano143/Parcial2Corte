@@ -92,7 +92,7 @@ nav ion-icon {
     background-repeat: no-repeat; 
     background-position: center; 
     background-size: cover;
-    background-size: 250px auto; 
+    background-size: 200px auto; 
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -141,6 +141,7 @@ nav ion-icon {
     border-radius: 25px; 
     overflow: hidden;
     margin-top:50px;
+    max-width: 30em;
 }
 
 .busqueda input[type="text"] {
@@ -162,6 +163,60 @@ nav ion-icon {
     background-color: #45a049;
 }
 
+
+
+#tienda {
+    background-color: #fff;
+    padding: 20px 0; 
+    display: flex;
+    justify-content: center; 
+}
+
+.cardBox {
+    display: flex;
+    justify-content: space-around; 
+    width: 100%; 
+    max-width: 1200px; 
+    flex-wrap: wrap; 
+}
+
+.card {
+    background-color: #edede9; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    border-radius: 10px; 
+    padding: 20px; 
+    margin: 10px; 
+    width: 250px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.iconBX {
+    font-size: 48px; 
+    color: white;
+    width: 80px; 
+    height: 80px; 
+    background-color: #ffa500; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    border-radius: 50%; 
+    margin-bottom: 10px; 
+}
+
+.numbers {
+    font-size: 18px; 
+    color: #333; 
+    font-weight: bold; 
+    margin-bottom: 5px; 
+}
+
+.cardName {
+    font-size: 14px; 
+    color: #666; 
+}
 
 
 footer{
